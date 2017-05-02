@@ -275,4 +275,3 @@ print ("Average distance with ridesharing for each pool",tridesharedist/numpool,
 print ("\nAverage number of trips Before RideSharing:",wolength/numpool)
 print ("Average number of trips After RideSharing:",wlength/numpool)
 
-
