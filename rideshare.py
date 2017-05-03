@@ -17,6 +17,9 @@ from Rideshare import Timeframe
 # as JFK within 2 mile radius
 # The set of below commented code should be run only for the first time when you run the program.
 
+
+##  QUERIES TO EXECUTE FROM PYTHON IDLE or PYTHON IDE
+
 # query = "CREATE TABLE trip_data_11(medallion VARCHAR(20),hack_license VARCHAR(20)," \
 #         "vendor_id varchar(10),rate_code INT,store_and_fwd_flag varchar(5),pickup_datetime datetime" \
 #         " , dropoff_datetime datetime,passenger_count INT,trip_time_in_secs INT," \
@@ -35,6 +38,31 @@ from Rideshare import Timeframe
 
 
 # Implementation of K-means clustering and Trip Matching Algorithm
+
+###### OR #####
+
+"""
+
+Queries to Execute in MySQL workbench
+
+CREATE TABLE trip_data1_2010(medallion VARCHAR(20),hack_license VARCHAR(20), vendor_id varchar(10),rate_code INT,
+store_and_fwd_flag varchar(5),pickup_datetime datetime, dropoff_datetime datetime,passenger_count INT,trip_time_in_secs INT,
+trip_distance DOUBLE,pickup_longitude DECIMAL(20,10),pickup_latitude DECIMAL(20,10), dropoff_longitude DECIMAL(20,10),
+dropoff_latitude DECIMAL(20,10))
+
+LOAD DATA LOCAL INFILE 'C:/Users/rashmi/Desktop/DBMS/Project/FOIL2010/FOIL2010/trip_data_1/trip_data_1.csv' 
+INTO TABLE trip_data1_2010 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 LINES
+
+
+CREATE TABLE jfk_data1_2010 AS SELECT *, ( 3959 * acos ( cos ( radians(40.645574) ) * cos( radians( pickup_latitude ) ) 
+* cos( radians( pickup_longitude ) - radians(-73.784866) ) + sin ( radians(40.645574) ) * sin( radians( pickup_latitude ) ) ) )
+ AS distance FROM trip_data1_2010 HAVING distance < 2 and passenger_count<=4
+ 
+
+ 
+SET GLOBAL innodb_buffer_pool_size=402653184; ### if Error comes : ERROR: The total number of locks exceeds the lock table size Error Code: 1206
+ 
+"""
 
 def kmeanscluster(starttime , endtime):
     global numpool
