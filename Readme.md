@@ -12,3 +12,23 @@ The main aim of this project is to combine Individual trips to shared trips to r
     * Please note that Graphhopper must be running all the time while algorithm is running.
 ## Run
 Run the rideshare python file from the repositories using whichever python IDE you are working on.
+
+##Reference
+
+https://www.packtpub.com/books/content/working-data-%E2%80%93-exploratory-data-analysis
+https://en.wikipedia.org/wiki/K-means_clustering
+https://en.wikipedia.org/wiki/GraphHopper
+https://github.com/kkvamsi/NewYork-Taxi-Ridesharing
+http://download.geofabrik.de/north-america/us/new-york.html
+https://github.com/graphhopper/graphhopper/blob/0.6/docs/core/quickstart-from-source.md
+
+##Team Member
+
+*Yang Hao
+
+*Upasna Menon
+
+*Rashmitha Mary Allam
+
+*Nivetha Shanmuga Sundaram
+
