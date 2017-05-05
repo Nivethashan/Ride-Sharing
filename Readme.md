@@ -1,3 +1,5 @@
+
+
 # Ride Sharing Project : TEAM-8
 
 The main aim of this project is to combine Individual trips to shared trips to reduce total distance travelled by taxies and to reduce the number of trips. To achieve this we have used k-means clustering and some Trip matching techniques with passenger count and delay time constraints. We also evaluated distance saved and number of trips saved before and after ridesharing.
@@ -20,3 +22,19 @@ Below are the steps to run the code :
 	
 ## Run
 Run the rideshare python file from the repositories using whichever python IDE you are working on.
+
+## Reference 
+
+https://www.packtpub.com/books/content/working-data-%E2%80%93-exploratory-data-analysis
+https://en.wikipedia.org/wiki/K-means_clustering
+https://en.wikipedia.org/wiki/GraphHopper
+https://github.com/kkvamsi/NewYork-Taxi-Ridesharing
+http://download.geofabrik.de/north-america/us/new-york.html
+https://github.com/graphhopper/graphhopper/blob/0.6/docs/core/quickstart-from-source.md
+
+## Team Members
+
+Upasna Menon
+Rashmitha Mary Allam
+Yang Hao
+Nivetha Shanmuga Sundaram
