@@ -1,6 +1,6 @@
 
 
-# Ride Sharing Project : TEAM-8
+# Ride Sharing Project
 
 The main aim of this project is to combine Individual trips to shared trips to reduce total distance travelled by taxies and to reduce the number of trips. To achieve this we have used k-means clustering and some Trip matching techniques with passenger count and delay time constraints. We also evaluated distance saved and number of trips saved before and after ridesharing.
 
