@@ -34,7 +34,8 @@ https://github.com/graphhopper/graphhopper/blob/0.6/docs/core/quickstart-from-so
 
 ## Team Members
 
-Upasna Menon
-Rashmitha Mary Allam
-Yang Hao
-Nivetha Shanmuga Sundaram
+* Nivetha Shanmuga Sundaram
+* Upasna Menon
+* Rashmitha Mary Allam
+* Yang Hao
+
